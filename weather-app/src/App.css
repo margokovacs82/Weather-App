@@ -15,6 +15,7 @@ body {
 }
 
 .main {
+  display: flex;
   height: 90vh;
   background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
@@ -30,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-flow: column;
   color: #000;
 }
 
@@ -46,6 +48,13 @@ body {
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: "Merriweather", serif;
+}
+
+.col-xs-7 {
+display: flex;
+flex-flow: column;
+background-color: #2c3e50;
+
 }
 
 .form-container {
@@ -98,7 +107,8 @@ button:active {
 }
 
 .weather__info {
-  width: 60%;
+  background-color: #2c3e50;
+  width: 100%;
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 2px;
